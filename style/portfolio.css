@@ -11,18 +11,17 @@ body {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    padding: 18px 36px;
+    padding: 15px 35px;
     font-weight: 700;
+    font-size: 20;
     color: #fff;
 }
 
 .nav-title {
     color: #181818;
-
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
+   
 }
 
 /*Nav related style*/
@@ -45,7 +44,7 @@ nav li {
 
 }
 
-nav li a {
+nav a {
     text-decoration: none;
     color: #474747;
 }
@@ -54,13 +53,58 @@ nav li a {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-pic{
     width: 500px;
+}
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+
+/* style related about section */
+.about{
+    
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 155px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    text-align: center;
+    font-size: 18px;
+}
+.section-description{
+    color: #757575;
+}
+
+.about-info-container{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: #757575;
+}
+.info-description{
+    font-weight: bold;
 }
