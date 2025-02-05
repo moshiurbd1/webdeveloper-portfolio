@@ -62,6 +62,8 @@ nav a {
 }
 .banner .profile-pic{
     width: 500px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px gray;
 }
 /* main section style */
 main{
